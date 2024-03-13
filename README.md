@@ -28,7 +28,7 @@ This Tic Tac Toe game draws inspiration from various online tutorials and resour
 ## License
 The "Tic Tac Toe Game" repository is open-source and licensed under the GNU License. You are free to use, modify, and distribute the code according to the terms of the license
 
-![tic_tac_toe](webvisual.PNG)
-![tic_tac_toe](webvisua2.PNG)
+![landing_page](website-images/webvisual.PNG)
+![tic_tac_toe](website-images/webvisua2.PNG)
 ![tic_tac_toe](webvisua3.PNG)
 ![tic_tac_toe](webvisua4.PNG)
