@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 250px;
+    margin: auto;
+    padding: 0 15px;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+body {
+    font-family: Red Hat Text;
+}
+
+.game {
+    background-color: hsl(218, 23%, 16%);
+    height: 100vh;
+    position: relative;
+}
+
+.content {
+    padding: 16px 0;
+    text-align: center;
+    background-color: hsl(217, 19%, 24%);
+    margin: 7px 0;
+    width: 69px;
+    height: 69px;
+    border-radius: 2px;
+
+}
+
+h3 {
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: 700;
+}
+
+.content button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: hsl(193, 38%, 86%);
+}
+
+.content button {
+    width: 33px;
+    height: 37px;
+}
+
+.block-btn img {
+    width: 100%;
+}
+
+#circle-img {
+    display: block;
+}
+
+#cross-img {
+    display: none;
+}
+
+#tick-img {
+    display: none;
+}
+
+
+#toss {
+    width: 235px;
+    height: 40px;
+    padding: 4px;
+    background-color: hsl(217, 19%, 24%);
+    border: none;
+    border-radius: 3px;
+}
+
+#toss a {
+    text-decoration: none;
+    color: hsl(193, 38%, 86%);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 37px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.turn {
+    display: flex;
+    align-items: center;
+    width: 66px;
+    background-color: hsl(217, 19%, 24%);
+    padding: 2px 4px;
+    border-radius: 6px;
+    gap: 4px;
+    justify-content: center;
+}
+
+.turn p {
+    font-size: 11px;
+    color: hsl(193, 38%, 86%);
+}
+
+.turn img {
+    width: 30%;
+}
+
+.reload {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    cursor: pointer;
+    background-color: hsl(193, 38%, 86%);
+    border-radius: 4px;
+}
+
+.reload svg {
+    width: 85%;
+    fill: hsl(217, 19%, 24%);
+    margin: 2px;
+}
+
+#turn-cross {
+    display: none;
+}
+
+#turn-tick {
+    display: none;
+}
+
+#win-state {
+    background-color: hsl(217, 19%, 24%);
+    position: absolute;
+    top: 22%;
+    right: 0;
+    left: 0;
+    padding: 16px;
+    display: none;
+}
+
+#win-state p {
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+}
+
+.takes-round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.takes-round h3 {
+    color: hsl(172, 67%, 45%);
+}
+
+.takes-round-img {
+    width: 50px;
+}
+
+.takes-round-img img {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#quit {
+    border: none;
+    background-color: hsl(193, 38%, 86%);
+    width: 46px;
+    border-radius: 4px;
+    padding: 9px 5px;
+    color: hsl(217, 19%, 24%);
+    cursor: pointer;
+}
+
+#before-toss {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#before-toss p {
+    color: hsl(193, 38%, 86%);
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+#win-cross-img {
+
+    display: none;
+}
+
+#win-tick-img {
+    display: none;
+}
+
+#loading {
+
+    display: none;
+}
+
+#won-para {
+    display: none;
+}
+
+#takes-heading {
+    display: none;
+}
+
+#draw-heading {
+    display: none;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:767px) {
+    .section {
+        margin-left: -15px;
+    }
+}
